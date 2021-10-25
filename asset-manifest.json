@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/girisimhaberleridemo/static/css/main.11f856cf.chunk.css",
+    "main.js": "/girisimhaberleridemo/static/js/main.29ab2193.chunk.js",
+    "main.js.map": "/girisimhaberleridemo/static/js/main.29ab2193.chunk.js.map",
+    "runtime-main.js": "/girisimhaberleridemo/static/js/runtime-main.0aa97eff.js",
+    "runtime-main.js.map": "/girisimhaberleridemo/static/js/runtime-main.0aa97eff.js.map",
+    "static/js/2.8b6f49b1.chunk.js": "/girisimhaberleridemo/static/js/2.8b6f49b1.chunk.js",
+    "static/js/2.8b6f49b1.chunk.js.map": "/girisimhaberleridemo/static/js/2.8b6f49b1.chunk.js.map",
+    "static/js/3.91cb1adb.chunk.js": "/girisimhaberleridemo/static/js/3.91cb1adb.chunk.js",
+    "static/js/3.91cb1adb.chunk.js.map": "/girisimhaberleridemo/static/js/3.91cb1adb.chunk.js.map",
+    "index.html": "/girisimhaberleridemo/index.html",
+    "static/css/main.11f856cf.chunk.css.map": "/girisimhaberleridemo/static/css/main.11f856cf.chunk.css.map",
+    "static/js/2.8b6f49b1.chunk.js.LICENSE.txt": "/girisimhaberleridemo/static/js/2.8b6f49b1.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/girisimhaberleridemo/static/media/gillsans.5025db4d.ttf",
+    "static/media/BecomeAnAuthorImg.2b89178f.png": "/girisimhaberleridemo/static/media/BecomeAnAuthorImg.2b89178f.png",
+    "static/media/Facebook.1a707b6f.svg": "/girisimhaberleridemo/static/media/Facebook.1a707b6f.svg",
+    "static/media/Google.14c804f8.svg": "/girisimhaberleridemo/static/media/Google.14c804f8.svg",
+    "static/media/SVG-subcribe2.6349ccab.png": "/girisimhaberleridemo/static/media/SVG-subcribe2.6349ccab.png",
+    "static/media/Twitter.942c0e43.svg": "/girisimhaberleridemo/static/media/Twitter.942c0e43.svg",
+    "static/media/about-hero-right.2b89178f.png": "/girisimhaberleridemo/static/media/about-hero-right.2b89178f.png",
+    "static/media/hero-right.2b89178f.png": "/girisimhaberleridemo/static/media/hero-right.2b89178f.png",
+    "static/media/line-awesome.css": "/girisimhaberleridemo/static/media/la-solid-900.89363487.woff",
+    "static/media/linkedin.dac3ffaa.svg": "/girisimhaberleridemo/static/media/linkedin.dac3ffaa.svg",
+    "static/media/logo-light.b01033a7.png": "/girisimhaberleridemo/static/media/logo-light.b01033a7.png",
+    "static/media/logo.b01033a7.png": "/girisimhaberleridemo/static/media/logo.b01033a7.png",
+    "static/media/placeholder-large-dark-h.473cccf0.png": "/girisimhaberleridemo/static/media/placeholder-large-dark-h.473cccf0.png",
+    "static/media/placeholder-large-dark.ab6902b6.png": "/girisimhaberleridemo/static/media/placeholder-large-dark.ab6902b6.png",
+    "static/media/placeholder-large-h.2b89178f.png": "/girisimhaberleridemo/static/media/placeholder-large-h.2b89178f.png",
+    "static/media/placeholder-large.ed676656.png": "/girisimhaberleridemo/static/media/placeholder-large.ed676656.png",
+    "static/media/podcast.7e9308bf.jpg": "/girisimhaberleridemo/static/media/podcast.7e9308bf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0aa97eff.js",
+    "static/js/2.8b6f49b1.chunk.js",
+    "static/css/main.11f856cf.chunk.css",
+    "static/js/main.29ab2193.chunk.js"
+  ]
+}
