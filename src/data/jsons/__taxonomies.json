@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Kişisel Gelişim",
+    "name": "Girişimler",
     "href": "/archive/the-demo-archive-slug",
     "thumbnail": "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=550&q=80",
     "count": 13,
@@ -9,15 +9,15 @@
   },
   {
     "id": 2,
-    "name": "13İlinmeyenler",
+    "name": "Bilgilendirici",
     "href": "/archive/the-demo-archive-slug",
     "thumbnail": "https://images.unsplash.com/photo-1485841890310-6a055c88698a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=550&q=80",
     "count": 16,
-    "color": "green"
+    "color": "red"
   },
   {
     "id": 3,
-    "name": "Yatırım Haberleri",
+    "name": "13ilinmeyenler",
     "href": "/archive/the-demo-archive-slug",
     "thumbnail": "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
     "count": 15,
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "name": "Tools",
+    "name": "Yatırım Haberleri",
     "href": "/archive/the-demo-archive-slug",
     "thumbnail": "https://images.unsplash.com/photo-1491406213019-05b162a72c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
     "count": 21,
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "name": "Automotive",
+    "name": "Başarı Hikayeleri",
     "href": "/archive/the-demo-archive-slug",
     "thumbnail": "https://images.unsplash.com/photo-1528297506728-9533d2ac3fa4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
     "count": 16,
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "name": "Toys",
+    "name": "İlham Al",
     "href": "/archive/the-demo-archive-slug",
     "thumbnail": "https://images.unsplash.com/photo-1534349762230-e0cadf78f5da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
     "count": 25,
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "name": "Outdoors",
+    "name": "Kişisel Gelişim",
     "href": "/archive/the-demo-archive-slug",
     "thumbnail": "https://images.unsplash.com/photo-1498049794561-7780e7231661?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
     "count": 14,
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "name": "Health",
+    "name": "Gündem",
     "href": "/archive/the-demo-archive-slug",
     "thumbnail": "https://images.unsplash.com/photo-1512686096451-a15c19314d59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
     "count": 4,

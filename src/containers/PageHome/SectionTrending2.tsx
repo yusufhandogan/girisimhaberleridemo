@@ -16,7 +16,7 @@ const SectionTrending2: FC<SectionTrending2Props> = ({ posts = postsDemo }) => {
   return (
     <div className="nc-SectionTrending2">
       <div className="container py-10 lg:py-14 flow-root">
-        <Heading>🎯 Trending on N.C blog</Heading>
+        <Heading>🎯 Girişim Haberlerinde Trend</Heading>
         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-5 -m-4">
           {posts.map((post) => {
             return <Card1 key={post.id} post={post} />;

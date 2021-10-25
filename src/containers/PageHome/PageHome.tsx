@@ -27,7 +27,7 @@ import BgGlassmorphism from "components/BgGlassmorphism/BgGlassmorphism";
 //
 const POSTS: PostDataType[] = DEMO_POSTS;
 //
-const MAGAZINE1_TABS = ["all", "Garden", "Fitness", "Design"];
+const MAGAZINE1_TABS = ["Tümü", "13ilinmeyenler", "Kişisel Gelisim", "Bilgilendirici"];
 const MAGAZINE1_POSTS = DEMO_POSTS.filter((_, i) => i >= 8 && i < 16);
 const MAGAZINE2_POSTS = DEMO_POSTS.filter((_, i) => i >= 0 && i < 7);
 //
@@ -50,14 +50,9 @@ const PageHome: React.FC = () => {
           <SectionLargeSlider
             heading="Editörün Seçtikleri"
             className="pt-10 pb-16 md:py-16 lg:pb-28 lg:pt-24 "
-            posts={POSTS.filter((_, i) => i < 3)}
+            posts={POSTS.filter((_, i) => i < 6)}
           />
 
-
-          {/* === SECTION 5 === */}
-
-
-          {/* === SECTION 6 === */}
 
           {/* === SECTION 4 === */}
           <SectionMagazine1
@@ -74,19 +69,6 @@ const PageHome: React.FC = () => {
         </div>
 
         {/* === SECTION 11 === */}
-        <div className="dark bg-neutral-900 dark:bg-black dark:bg-opacity-20 text-neutral-100">
-          <div className="relative container">
-            <SectionGridPosts
-              className="py-16 lg:py-28"
-              headingIsCenter
-              postCardName="card10V2"
-              heading="Explore latest video articles"
-              subHeading="Hover on the post card and preview video 🥡"
-              posts={DEMO_POSTS_VIDEO.filter((_, i) => i > 5 && i < 12)}
-              gridClass="md:grid-cols-2 lg:grid-cols-3"
-            />
-          </div>
-        </div>
 
         <div className="container ">
           {/* === SECTION 9 === */}
@@ -101,30 +83,21 @@ const PageHome: React.FC = () => {
           {/* === SECTION 5 === */}
           <SectionGridAuthorBox
             className="py-16 lg:py-28"
-            authors={DEMO_AUTHORS.filter((_, i) => i < 10)}
+            authors={DEMO_AUTHORS.filter((_, i) => i < 5)}
           />
 
           {/* === SECTION 8 === */}
-          <div className="relative py-16">
 
-
-          </div>
 
           {/* === SECTION 11 === */}
-          <SectionMagazine4
-            className="py-16 lg:py-28"
-            heading="Kişisel Gelişim 🎨 "
-            posts={MAGAZINE2_POSTS}
-            tabs={MAGAZINE1_TABS}
-          />
+
 
           {/* === SECTION 12 === */}
           <div className="relative py-16">
             <BackgroundSection />
             <SectionSliderPosts
               postCardName="card11"
-              heading=" More design articles"
-              subHeading="Over 1118 articles "
+              heading="Daha Fazlası"
               posts={DEMO_POSTS.filter(
                 (p, i) => i > 3 && i < 25 && p.postType === "standard"
               )}

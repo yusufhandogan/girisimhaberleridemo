@@ -17,7 +17,7 @@ export interface SectionMagazine6Props {
 const SectionMagazine6: FC<SectionMagazine6Props> = ({
   posts,
   tabs,
-  heading = "Latest Articles 🎈 ",
+  heading = "Son Yazılarımız 🎈 ",
   className = "",
 }) => {
   let timeOut: NodeJS.Timeout | null = null;

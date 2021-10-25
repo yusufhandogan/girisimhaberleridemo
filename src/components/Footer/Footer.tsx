@@ -24,48 +24,7 @@ const widgetMenus: WidgetFooterMenu[] = [
       { href: "#", label: "Girişim Haberleri EU" },
     ],
   },
-  {
-    id: "1",
-    title: "Explore",
-    menus: [
-      { href: "#", label: "Design features" },
-      { href: "#", label: "Prototyping" },
-      { href: "#", label: "Design systems" },
-      { href: "#", label: "Pricing" },
-      { href: "#", label: "Customers" },
-      { href: "#", label: "Security" },
-      { href: "#", label: "Integrations" },
-      { href: "#", label: "Contact" },
-    ],
-  },
-  {
-    id: "2",
-    title: "Resources",
-    menus: [
-      { href: "#", label: "Best practices" },
-      { href: "#", label: "Support" },
-      { href: "#", label: "Developers" },
-      { href: "#", label: "Learn design" },
-      { href: "#", label: "What's new" },
-      { href: "#", label: "Releases" },
-      { href: "#", label: "Careers" },
-      { href: "#", label: "About us" },
-    ],
-  },
-  {
-    id: "4",
-    title: "Community",
-    menus: [
-      { href: "#", label: "Discussion Forums" },
-      { href: "#", label: "Code of Conduct" },
-      { href: "#", label: "Community Resources" },
-      { href: "#", label: "Contributing" },
-      { href: "#", label: "Concurrent Mode" },
-      { href: "#", label: "API Reference" },
-      { href: "#", label: "Advanced Guides" },
-      { href: "#", label: "Main Concepts" },
-    ],
-  },
+
 ];
 
 const Footer: React.FC = () => {

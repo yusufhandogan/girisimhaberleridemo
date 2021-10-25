@@ -22,15 +22,15 @@ const SectionSubscribe2: FC<SectionSubscribe2Props> = ({ className = "" }) => {
         </span>
         <ul className="space-y-5 mt-10">
           <li className="flex items-center space-x-4">
-            <Badge name="01" />
+            <Badge name="*" />
             <span className="font-medium text-neutral-700 dark:text-neutral-300">
-              Get more discount
+              Yeni Haberlerden İlk Siz Haberdar Ol
             </span>
           </li>
           <li className="flex items-center space-x-4">
-            <Badge color="indigo" name="02" />
+            <Badge color="red" name="*" />
             <span className="font-medium text-neutral-700 dark:text-neutral-300">
-              Get premium magazines
+              Hafta Boyunca Yaşananları Kaçırmayın
             </span>
           </li>
         </ul>

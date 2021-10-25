@@ -21,7 +21,7 @@ const megaMenuDemo: MegamenuItem[] = [
     id: ncNanoId(),
     image:
       "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGFwcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=60",
-    title: "İlham Al!",
+    title: "Başarı Hikayeleri",
     items: __megamenu.map((i) => ({
       id: ncNanoId(),
       href: "#",
@@ -32,7 +32,7 @@ const megaMenuDemo: MegamenuItem[] = [
     id: ncNanoId(),
     image:
       "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2l0eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=60",
-    title: "City",
+    title: "İlham Al",
     items: __megamenu.map((i) => ({
       id: ncNanoId(),
       href: "#",
@@ -43,7 +43,7 @@ const megaMenuDemo: MegamenuItem[] = [
     id: ncNanoId(),
     image:
       "https://images.unsplash.com/photo-1575328630189-440449ed8cd1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGNvbnRydWN0aW9ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=60",
-    title: "Contruction",
+    title: "Girişimcilik",
     items: __megamenu.map((i) => ({
       id: ncNanoId(),
       href: "#",
@@ -54,7 +54,7 @@ const megaMenuDemo: MegamenuItem[] = [
     id: ncNanoId(),
     image:
       "https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y291bnRyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=60",
-    title: "Country",
+    title: "Yatırım Haberleri",
     items: __megamenu.map((i) => ({
       id: ncNanoId(),
       href: "#",
@@ -312,14 +312,13 @@ export const NAVIGATION_DEMO: NavItemType[] = [
   {
     id: ncNanoId(),
     href: "/",
-    name: "Ana Sayfa",
-    type: "dropdown",
+    name: "Girişim Haberleri",
     children: demoChildMenus,
   },
   {
     id: ncNanoId(),
     href: "#",
-    name: "English News",
+    name: "Kategoriler",
     type: "megaMenu",
     megaMenu: megaMenuDemo,
   },
@@ -327,22 +326,14 @@ export const NAVIGATION_DEMO: NavItemType[] = [
   {
     id: ncNanoId(),
     href: "#",
-    name: "Fewer cols",
-    type: "megaMenu",
-    megaMenu: megaMenu3ItemDemo,
+    name: "Yazarlar",
+    children: otherPageChildMenus,
   },
+
   {
     id: ncNanoId(),
     href: "#",
-    name: "Templates",
-    type: "dropdown",
-    children: templateChilds,
-  },
-  {
-    id: ncNanoId(),
-    href: "#",
-    name: "Other pages",
-    type: "dropdown",
+    name: "Hakkımızda",
     children: otherPageChildMenus,
   },
 ];

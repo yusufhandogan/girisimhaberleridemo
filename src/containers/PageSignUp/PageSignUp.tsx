@@ -3,6 +3,7 @@ import LayoutPage from "components/LayoutPage/LayoutPage";
 import facebookSvg from "images/Facebook.svg";
 import twitterSvg from "images/Twitter.svg";
 import googleSvg from "images/Google.svg";
+import linkedinSvg from "images/linkedin.svg";
 import Input from "components/Input/Input";
 import ButtonPrimary from "components/Button/ButtonPrimary";
 import NcLink from "components/NcLink/NcLink";
@@ -14,19 +15,24 @@ export interface PageSignUpProps {
 
 const loginSocials = [
   {
-    name: "Continue with Facebook",
+    name: "Facebook İle Devam Et",
     href: "#",
     icon: facebookSvg,
   },
   {
-    name: "Continue with Twitter",
+    name: "Twitter İle Devam Et",
     href: "#",
     icon: twitterSvg,
   },
   {
-    name: "Continue with Google",
+    name: "Google İle Devam Et",
     href: "#",
     icon: googleSvg,
+  },
+  {
+    name: "Linkedin İle Devam Et",
+    href: "#",
+    icon: linkedinSvg,
   },
 ];
 

@@ -27,29 +27,29 @@
 
 // POPPINS
 @font-face {
-  font-family: Poppins;
+  font-family: 	Gill Sans;
   font-weight: 300;
-  src: url("../fonts/Poppins/Poppins-Light.ttf");
+  src: url("../fonts/Gill-Sans/GillSans-Light.ttf");
 }
 @font-face {
-  font-family: Poppins;
-  font-weight: 400;
-  src: url("../fonts/Poppins/Poppins-Regular.ttf");
-}
-@font-face {
-  font-family: Poppins;
+  font-family: Gill Sans;
   font-weight: 500;
-  src: url("../fonts/Poppins/Poppins-Medium.ttf");
+  src: url("../fonts/Gill-Sans/gillsans.ttf");
 }
 @font-face {
-  font-family: Poppins;
+  font-family: Gill Sans;
+  font-weight: 500;
+  src: url("../fonts/Gill-Sans/Gill Sans Medium.otf");
+}
+@font-face {
+  font-family: Gill Sans;
   font-weight: 600;
-  src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
+  src: url("../fonts/Gill-Sans/GillSans-SemiBold.ttf");
 }
 @font-face {
-  font-family: Poppins;
+  font-family: Gill Sans;
   font-weight: 700;
-  src: url("../fonts/Poppins/Poppins-Bold.ttf");
+  src: url("../fonts/Gill-Sans/GillSans Bold.ttf");
 }
 
 //
@@ -147,8 +147,8 @@ h4 {
 }
 
 :root {
-  --font-display: Poppins;
-  --font-body: Poppins;
+  --font-display: Gill Sans;
+  --font-body: Gill Sans;
 }
 
 .theme-animals {

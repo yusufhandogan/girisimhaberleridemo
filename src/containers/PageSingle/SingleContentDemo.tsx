@@ -3,8 +3,6 @@ import React from "react";
 const SingleContentDemo = () => {
   return (
     <>
-      {/* THIS IS THE DEMP CONTENT */}
-      {/* IF YOUR DATA IS JSON, YOU CAN USE render with html-react-parser (https://www.npmjs.com/package/html-react-parser) */}
       <strong>
       Apple, Türkiye’de 3.mağazasını açmaya hazırlanıyor! Avrupa’nın en büyük Apple mağazası olacağı söylenen bu mağaza, İstanbul-Bağdat Caddesinde açılmaya hazırlanıyor.
       </strong>

@@ -28,8 +28,9 @@ const commentHasAuthor = __comments.map((item) => ({
 export const DEMO_COMMENTS = nest(commentHasAuthor, null);
 export const SINGLE: SinglePageType = {
   id: "eae0212192f63287e0c212",
-  featuredImage:"https://www.girisimhaberleri.com/wp-content/uploads/2021/10/Apple.jpg",
-  title: "Apple Avrupa’nın En Büyük Mağazasını İstanbul’da mı Açıyor?",
+  featuredImage:
+    "https://images.unsplash.com/photo-1605487903301-a1dff2e6bbbe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1957&q=80",
+  title: "Quiet ingenuity: 120,000 lunches and counting",
   desc: "We’re an online magazine dedicated to covering the best in international product design. We started as a little blog back in 2002 covering student work and over time",
   date: "May 20, 2021",
   href: "/single/this-is-single-slug",
@@ -40,11 +41,11 @@ export const SINGLE: SinglePageType = {
   like: { count: 773, isLiked: true },
   author: {
     id: 10,
-    firstName: "Ayça Doğan",
+    firstName: "Mimi",
     lastName: "Fones",
-    displayName: "Ayça Doğan",
+    displayName: "Fones Mimi",
     email: "mfones9@canalblog.com",
-    avatar: "",
+    avatar: "https://i.resmim.net/SM61so.jpg",
     count: 38,
     href: "/author/the-demo-author-slug",
     desc: "There’s no stopping the tech giant. Apple now opens its 100th store in China.There’s no stopping the tech giant.",
@@ -53,7 +54,7 @@ export const SINGLE: SinglePageType = {
   categories: [
     {
       id: 1,
-      name: "Girişimcilik",
+      name: "Garden",
       href: "/archive/the-demo-archive-slug",
       thumbnail:
         "https://images.unsplash.com/photo-1461354464878-ad92f492a5a0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGdhcmRlbmluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=60",
@@ -63,7 +64,7 @@ export const SINGLE: SinglePageType = {
     },
     {
       id: 2,
-      name: "Yatırım Haberleri",
+      name: "Jewelry",
       href: "/archive/the-demo-archive-slug",
       thumbnail:
         "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGpld2Vscnl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=60",
