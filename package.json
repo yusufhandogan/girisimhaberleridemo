@@ -1,8 +1,8 @@
 {
+  "homepage": "http://yusufhandogan.github.io/girisimhaberleridemo",
   "name": "nc-maz",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@glidejs/glide": "^3.4.1",
@@ -34,6 +34,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
@@ -69,6 +71,7 @@
     "@types/react-router-dom": "^5.1.7",
     "@types/redux-logger": "^3.0.8",
     "autoprefixer": "^9.8.8",
+    "gh-pages": "^3.2.3",
     "node-sass": "^5.0.0",
     "postcss": "^7.0.39",
     "redux-logger": "^3.0.6",
